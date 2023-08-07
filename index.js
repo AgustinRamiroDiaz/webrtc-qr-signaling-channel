@@ -78,7 +78,7 @@ window.addEventListener('load', async () => {
   }
 
   function render(code, final) {
-    const qr = qrcode(0, 'L');
+    const qr = qrcode(0, 'H');
     qr.addData(code, 'Byte');
     qr.make();
 
